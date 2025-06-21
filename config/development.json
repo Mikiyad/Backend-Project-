@@ -1,0 +1,19 @@
+{
+  "dbConfig": {
+    "type": "postgres",
+    "host": "localhost",
+    "username": "postgres",
+    "password": "121921",
+    "database": "testing",
+    "port": 5432,
+    "synchronize": true,
+    "logging": false,
+    "entities": ["src/entity/**/*"],
+    "migrations": ["src/migration/**/*"],
+    "subscribers": ["src/subscriber/**/*"],
+    "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration"
+    }
+  }
+}

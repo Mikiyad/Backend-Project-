@@ -1,0 +1,8 @@
+{
+    "verbose":true,
+    "ignore":["./client"],
+    "execMap":{
+        "js":"node",
+        "pde":"processing --sketch={{pwd}} --run"
+    }
+}
